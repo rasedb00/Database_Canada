@@ -14,8 +14,8 @@ all:
 isolates: .complete
 
 .complete:
-	./create_example_isolates.sh
-	touch $@
+# 	./create_example_isolates.sh
+# 	touch $@
 
 clean:
 	rm -f *.fa .complete
