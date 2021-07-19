@@ -15,12 +15,12 @@ tree: .complete
 
 .complete:
 	rase_db_prepare_tree.py \
-		--in-newick ../published/tree.example.nw \
+		--in-newick ../published/test_db_25.tree \
 		--out-newick tree.newick \
-		--metadata ../published/isolates.example.tsv \
+		--metadata ../published/test_db2_25.tsv \
 		--node-col 0 \
 		--taxid-col 0 \
-		--phylogroup-col 1
+		--phylogroup-col 3
 
 	touch $@
 
