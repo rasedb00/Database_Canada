@@ -17,7 +17,7 @@
 #########
 
 #db name
-name=my-example-db
+name=rase_test_db1
 
 # k-mer size, can contain multiple values
 k=18
@@ -26,14 +26,21 @@ k=18
 # ANTIBIOTICS #
 ###############
 
-antibiotics:=ant1 ant2
+antibiotics:=cftx czn amp sxt gen cipr nit ert mer
 
 ###############
 # BREAKPOINTS #
 ###############
 
-ant1:=0.06  # Antibiotics 1
-ant2:=0.50  # Antibiotics 2
+cftx:=2  # Antibiotics 1
+czn:=4  # Antibiotics 2 - didn't change this
+amp:=8
+sxt:=4
+gen:=2
+cipr:=0.5
+nit:=16 #nitroxline
+ert:=0.25 #not in eucast
+mer:=8
 
 export
 
